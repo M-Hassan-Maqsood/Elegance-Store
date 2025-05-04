@@ -4,8 +4,8 @@ const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-
 const CSV_PATH = "khaadi_data.csv";  // CSV file is in the same directory as script.js
 //const RECOMMENDATION_API_URL = "http://localhost:5000/recommend"; // Our Flask API endpoint
 //const FILTER_OPTIONS_API_URL = "http://localhost:5000/filter_options"; // New endpoint for filter options
-const RECOMMENDATION_API_URL = "https://backend-production-acd3.up.railway.app/recommend";
-const FILTER_OPTIONS_API_URL = "https://backend-production-acd3.up.railway.app/filter_options";
+const RECOMMENDATION_API_URL = "elegence-hqbdf0dnfgfhb6eu.centralindia-01.azurewebsites.net/recommend";
+const FILTER_OPTIONS_API_URL = "elegence-hqbdf0dnfgfhb6eu.centralindia-01.azurewebsites.net/filter_options";
 // Global variables
 let productData = [];
 let productDataLoaded = false;
