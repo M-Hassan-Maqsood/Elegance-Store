@@ -1,0 +1,136 @@
+2025-05-03 15:03:59,352 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 15:03:59,867 - INFO - Use pytorch device: cpu
+2025-05-03 15:03:59,867 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 15:04:00,024 - INFO - Data loaded successfully
+2025-05-03 15:04:00,039 - INFO - Extracting filter options from the dataset
+2025-05-03 15:04:00,055 - INFO - Available options extracted: {'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top'], 'color': ['BEIGE', 'BLACK', 'BLUE', 'BROWN', 'CORAL', 'D-GREEN', 'D-PINK', 'GREEN', 'GREY', 'L-GREEN', 'L-PINK', 'L-YELLOW', 'LILAC', 'MAROON', 'MULTI', 'MUSTARD', 'NAVY', 'OFF-WHITE', 'OFF-White', 'OLIVE', 'ORANGE', 'PINK', 'PURPLE', 'RED', 'RUST', 'TEAL', 'TURQUOISE', 'WHITE', 'YELLOW'], 'price_range': ['budget', 'mid_range', 'premium']}
+2025-05-03 15:04:00,055 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,055 - INFO - Filter query: (Price >= 0) & (Price <= 4000)
+2025-05-03 15:04:00,079 - INFO - Found 237 products after applying filters
+2025-05-03 15:04:00,083 - INFO - Created query string: clothing product
+2025-05-03 15:04:00,369 - INFO - Found 3 recommendations
+2025-05-03 15:04:00,369 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,369 - INFO - Filter query: (Price >= 4000) & (Price <= 10000)
+2025-05-03 15:04:00,383 - INFO - Found 145 products after applying filters
+2025-05-03 15:04:00,383 - INFO - Created query string: clothing product
+2025-05-03 15:04:00,413 - INFO - Found 3 recommendations
+2025-05-03 15:04:00,414 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,414 - INFO - Filter query: (Price >= 10000) & (Price <= inf)
+2025-05-03 15:04:00,414 - INFO - Found 18 products after applying filters
+2025-05-03 15:04:00,414 - INFO - Created query string: clothing product
+2025-05-03 15:04:00,445 - INFO - Found 3 recommendations
+2025-05-03 15:04:00,447 - INFO - Applying filters: price_range=budget, skin_tone=Deep/Dark, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,447 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Skin Tone Category` == 'Deep/Dark'
+2025-05-03 15:04:00,457 - INFO - Found 166 products after applying filters
+2025-05-03 15:04:00,458 - INFO - Created query string: Skin Tone Category: Deep/Dark
+2025-05-03 15:04:00,493 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,495 - INFO - Applying filters: price_range=budget, skin_tone=Light/Fair, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,495 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Skin Tone Category` == 'Light/Fair'
+2025-05-03 15:04:00,510 - INFO - Found 63 products after applying filters
+2025-05-03 15:04:00,511 - INFO - Created query string: Skin Tone Category: Light/Fair
+2025-05-03 15:04:00,545 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,546 - INFO - Applying filters: price_range=mid_range, skin_tone=Deep/Dark, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,547 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Skin Tone Category` == 'Deep/Dark'
+2025-05-03 15:04:00,558 - INFO - Found 98 products after applying filters
+2025-05-03 15:04:00,558 - INFO - Created query string: Skin Tone Category: Deep/Dark
+2025-05-03 15:04:00,588 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,590 - INFO - Applying filters: price_range=mid_range, skin_tone=Light/Fair, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,590 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Skin Tone Category` == 'Light/Fair'
+2025-05-03 15:04:00,601 - INFO - Found 41 products after applying filters
+2025-05-03 15:04:00,601 - INFO - Created query string: Skin Tone Category: Light/Fair
+2025-05-03 15:04:00,630 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,630 - INFO - Applying filters: price_range=premium, skin_tone=Deep/Dark, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,630 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Skin Tone Category` == 'Deep/Dark'
+2025-05-03 15:04:00,647 - INFO - Found 10 products after applying filters
+2025-05-03 15:04:00,648 - INFO - Created query string: Skin Tone Category: Deep/Dark
+2025-05-03 15:04:00,681 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,681 - INFO - Applying filters: price_range=premium, skin_tone=Light/Fair, occasion=None, product_type=None, color=None
+2025-05-03 15:04:00,686 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Skin Tone Category` == 'Light/Fair'
+2025-05-03 15:04:00,696 - INFO - Found 6 products after applying filters
+2025-05-03 15:04:00,696 - INFO - Created query string: Skin Tone Category: Light/Fair
+2025-05-03 15:04:00,727 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,730 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=Casual, product_type=None, color=None
+2025-05-03 15:04:00,730 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Occasion` == 'Casual'
+2025-05-03 15:04:00,745 - INFO - Found 189 products after applying filters
+2025-05-03 15:04:00,746 - INFO - Created query string: Occasion: Casual
+2025-05-03 15:04:00,790 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,793 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=Formal, product_type=None, color=None
+2025-05-03 15:04:00,793 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Occasion` == 'Formal'
+2025-05-03 15:04:00,807 - INFO - Found 42 products after applying filters
+2025-05-03 15:04:00,807 - INFO - Created query string: Occasion: Formal
+2025-05-03 15:04:00,849 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,849 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=Casual, product_type=None, color=None
+2025-05-03 15:04:00,849 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Occasion` == 'Casual'
+2025-05-03 15:04:00,865 - INFO - Found 72 products after applying filters
+2025-05-03 15:04:00,865 - INFO - Created query string: Occasion: Casual
+2025-05-03 15:04:00,893 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,911 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=Formal, product_type=None, color=None
+2025-05-03 15:04:00,911 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Occasion` == 'Formal'
+2025-05-03 15:04:00,915 - INFO - Found 33 products after applying filters
+2025-05-03 15:04:00,915 - INFO - Created query string: Occasion: Formal
+2025-05-03 15:04:00,964 - INFO - Found 2 recommendations
+2025-05-03 15:04:00,964 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=Casual, product_type=None, color=None
+2025-05-03 15:04:00,964 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Occasion` == 'Casual'
+2025-05-03 15:04:00,964 - INFO - Found 0 products after applying filters
+2025-05-03 15:04:00,979 - WARNING - No products found with the selected filters
+2025-05-03 15:04:00,981 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=Formal, product_type=None, color=None
+2025-05-03 15:04:00,981 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Occasion` == 'Formal'
+2025-05-03 15:04:00,986 - INFO - Found 2 products after applying filters
+2025-05-03 15:04:00,986 - INFO - Created query string: Occasion: Formal
+2025-05-03 15:04:01,034 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,034 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=None, product_type=2 Piece Outfit, color=None
+2025-05-03 15:04:01,034 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Product Type` == '2 Piece Outfit'
+2025-05-03 15:04:01,052 - INFO - Found 45 products after applying filters
+2025-05-03 15:04:01,052 - INFO - Created query string: Product Type: 2 Piece Outfit
+2025-05-03 15:04:01,096 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,112 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=None, product_type=Accessory, color=None
+2025-05-03 15:04:01,112 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Product Type` == 'Accessory'
+2025-05-03 15:04:01,120 - INFO - Found 22 products after applying filters
+2025-05-03 15:04:01,120 - INFO - Created query string: Product Type: Accessory
+2025-05-03 15:04:01,214 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,214 - INFO - Applying filters: price_range=budget, skin_tone=None, occasion=None, product_type=Bottom, color=None
+2025-05-03 15:04:01,214 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Product Type` == 'Bottom'
+2025-05-03 15:04:01,231 - INFO - Found 55 products after applying filters
+2025-05-03 15:04:01,231 - INFO - Created query string: Product Type: Bottom
+2025-05-03 15:04:01,290 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,290 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=None, product_type=2 Piece Outfit, color=None
+2025-05-03 15:04:01,306 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Product Type` == '2 Piece Outfit'
+2025-05-03 15:04:01,329 - INFO - Found 3 products after applying filters
+2025-05-03 15:04:01,330 - INFO - Created query string: Product Type: 2 Piece Outfit
+2025-05-03 15:04:01,406 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,406 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=None, product_type=Accessory, color=None
+2025-05-03 15:04:01,406 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Product Type` == 'Accessory'
+2025-05-03 15:04:01,430 - INFO - Found 4 products after applying filters
+2025-05-03 15:04:01,430 - INFO - Created query string: Product Type: Accessory
+2025-05-03 15:04:01,482 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,482 - INFO - Applying filters: price_range=mid_range, skin_tone=None, occasion=None, product_type=Bottom, color=None
+2025-05-03 15:04:01,482 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Product Type` == 'Bottom'
+2025-05-03 15:04:01,506 - INFO - Found 10 products after applying filters
+2025-05-03 15:04:01,506 - INFO - Created query string: Product Type: Bottom
+2025-05-03 15:04:01,563 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,564 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=2 Piece Outfit, color=None
+2025-05-03 15:04:01,564 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Product Type` == '2 Piece Outfit'
+2025-05-03 15:04:01,579 - INFO - Found 0 products after applying filters
+2025-05-03 15:04:01,579 - WARNING - No products found with the selected filters
+2025-05-03 15:04:01,582 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=Accessory, color=None
+2025-05-03 15:04:01,582 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Product Type` == 'Accessory'
+2025-05-03 15:04:01,595 - INFO - Found 2 products after applying filters
+2025-05-03 15:04:01,596 - INFO - Created query string: Product Type: Accessory
+2025-05-03 15:04:01,638 - INFO - Found 2 recommendations
+2025-05-03 15:04:01,638 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=Bottom, color=None
+2025-05-03 15:04:01,638 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Product Type` == 'Bottom'
+2025-05-03 15:04:01,638 - INFO - Found 0 products after applying filters
+2025-05-03 15:04:01,638 - WARNING - No products found with the selected filters
+2025-05-03 15:04:01,657 - INFO - Applying filters: price_range=budget, skin_tone=Deep/Dark, occasion=Casual, product_type=Top, color=BLACK
+2025-05-03 15:04:01,657 - INFO - Filter query: (Price >= 0) & (Price <= 4000) & `Skin Tone Category` == 'Deep/Dark' & `Occasion` == 'Casual' & `Product Type` == 'Top' & `Color` == 'BLACK'
+2025-05-03 15:04:01,662 - INFO - Found 9 products after applying filters
+2025-05-03 15:04:01,662 - INFO - Created query string: Skin Tone Category: Deep/Dark, Occasion: Casual, Product Type: Top, Color: BLACK
+2025-05-03 15:04:01,706 - INFO - Found 3 recommendations
+2025-05-03 15:04:01,722 - INFO - Applying filters: price_range=mid_range, skin_tone=Light/Fair, occasion=Wedding, product_type=Complete Outfit, color=RED
+2025-05-03 15:04:01,723 - INFO - Filter query: (Price >= 4000) & (Price <= 10000) & `Skin Tone Category` == 'Light/Fair' & `Occasion` == 'Wedding' & `Product Type` == 'Complete Outfit' & `Color` == 'RED'
+2025-05-03 15:04:01,735 - INFO - Found 0 products after applying filters
+2025-05-03 15:04:01,735 - WARNING - No products found with the selected filters
+2025-05-03 15:04:01,742 - INFO - Applying filters: price_range=premium, skin_tone=Medium/Olive, occasion=Formal, product_type=Accessory, color=BLUE
+2025-05-03 15:04:01,743 - INFO - Filter query: (Price >= 10000) & (Price <= inf) & `Skin Tone Category` == 'Medium/Olive' & `Occasion` == 'Formal' & `Product Type` == 'Accessory' & `Color` == 'BLUE'
+2025-05-03 15:04:01,748 - INFO - Found 0 products after applying filters
+2025-05-03 15:04:01,748 - WARNING - No products found with the selected filters

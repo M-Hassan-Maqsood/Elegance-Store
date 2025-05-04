@@ -1,0 +1,14 @@
+2025-05-03 14:32:19,237 - INFO - Starting enhanced embedding creation process
+2025-05-03 14:32:19,268 - INFO - Loading dataset from products_with_type_and_occasion.csv
+2025-05-03 14:32:19,284 - INFO - Loaded 400 products
+2025-05-03 14:32:19,284 - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-05-03 14:32:19,284 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 14:32:20,790 - INFO - Use pytorch device: cpu
+2025-05-03 14:32:20,790 - INFO - Creating product embeddings (excluding price and ID)
+2025-05-03 14:32:20,899 - INFO - Encoding 400 products
+2025-05-03 14:32:32,172 - INFO - Building FAISS index
+2025-05-03 14:32:32,172 - INFO - Creating product info dictionary
+2025-05-03 14:32:32,295 - INFO - Saving embeddings to enhanced_product_embeddings.pkl
+2025-05-03 14:32:32,311 - INFO - Saving FAISS index to enhanced_product_index.faiss
+2025-05-03 14:32:32,342 - INFO - Saving product info to enhanced_product_info.pkl
+2025-05-03 14:32:32,342 - INFO - All data saved successfully!

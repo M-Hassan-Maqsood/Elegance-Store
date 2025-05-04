@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegance AI Assistant</title>
+    <link rel="stylesheet" href="style.css?v=1.1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css?v=1.1">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo">
+                <i class="fas fa-user-tie main-icon"></i>
+                <h1>ELEGANCE</h1>
+            </div>
+            <p class="tagline">AI Assistant</p>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    <i class="fas fa-robot bot-icon"></i>
+                    <div class="text">Assalam-o-Alaikum! Welcome to Elegance clothing store. How may I assist you today? You can search for products or use our AI Designer for personalized recommendations.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product-recommendations" id="product-recommendations">
+            <!-- Products will be displayed here -->
+        </div>
+        
+        <div class="chat-input-container">
+            <textarea id="user-input" placeholder="Search for products or ask..." rows="1"></textarea>
+            <button id="mic-btn" title="Voice Input">
+                <i class="fas fa-microphone"></i>
+            </button>
+            <button id="lens-input-btn" title="Visual Search">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+
+        <div class="chat-suggestions">
+            <button class="suggestion-btn">Shipping Info</button>
+            <button class="special-mode-btn" id="contact-btn">Contact</button>
+            <button class="special-mode-btn" id="returns-btn">Returns</button>
+            <button class="special-mode-btn" id="designer-btn">AI Designer</button>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

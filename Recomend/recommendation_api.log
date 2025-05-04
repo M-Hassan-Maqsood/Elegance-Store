@@ -1,0 +1,395 @@
+2025-05-03 15:18:40,810 - INFO - Loading faiss with AVX2 support.
+2025-05-03 15:18:40,810 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-03 15:18:40,810 - INFO - Loading faiss.
+2025-05-03 15:18:40,842 - INFO - Successfully loaded faiss.
+2025-05-03 15:18:40,948 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 15:18:41,637 - INFO - Use pytorch device: cpu
+2025-05-03 15:18:41,637 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 15:18:41,637 - INFO - Embeddings and index loaded successfully
+2025-05-03 15:18:41,637 - INFO - Extracting filter options from the dataset
+2025-05-03 15:18:41,637 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-03 15:18:41,637 - INFO - Starting Clothing Recommendation API Server
+2025-05-03 15:18:41,666 - WARNING -  * Debugger is active!
+2025-05-03 15:18:41,681 - INFO -  * Debugger PIN: 470-075-102
+2025-05-03 15:18:42,124 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 15:22:18,332 - INFO - Loading faiss with AVX2 support.
+2025-05-03 15:22:18,333 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-03 15:22:18,333 - INFO - Loading faiss.
+2025-05-03 15:22:18,352 - INFO - Successfully loaded faiss.
+2025-05-03 15:22:18,446 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 15:22:19,490 - INFO - Use pytorch device: cpu
+2025-05-03 15:22:19,490 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 15:22:19,523 - INFO - Embeddings and index loaded successfully
+2025-05-03 15:22:19,528 - INFO - Extracting filter options from the dataset
+2025-05-03 15:22:19,530 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-03 15:22:19,535 - INFO - Starting Clothing Recommendation API Server
+2025-05-03 15:22:19,567 - INFO -  * Restarting with stat
+2025-05-03 15:22:26,527 - INFO - Loading faiss with AVX2 support.
+2025-05-03 15:22:26,527 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-03 15:22:26,527 - INFO - Loading faiss.
+2025-05-03 15:22:26,559 - INFO - Successfully loaded faiss.
+2025-05-03 15:22:26,668 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 15:22:27,293 - INFO - Use pytorch device: cpu
+2025-05-03 15:22:27,293 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 15:22:27,293 - INFO - Embeddings and index loaded successfully
+2025-05-03 15:22:27,293 - INFO - Extracting filter options from the dataset
+2025-05-03 15:22:27,293 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-03 15:22:27,293 - INFO - Starting Clothing Recommendation API Server
+2025-05-03 15:22:27,324 - WARNING -  * Debugger is active!
+2025-05-03 15:22:27,339 - INFO -  * Debugger PIN: 470-075-102
+2025-05-03 15:22:27,750 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 15:22:48,038 - INFO - 127.0.0.1 - - [03/May/2025 15:22:48] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-03 15:22:48,138 - INFO - 127.0.0.1 - - [03/May/2025 15:22:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-03 15:23:03,301 - INFO - Filter options retrieved successfully
+2025-05-03 15:23:03,302 - INFO - 127.0.0.1 - - [03/May/2025 15:23:03] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:40:48,573 - INFO - Filter options retrieved successfully
+2025-05-03 15:40:48,574 - INFO - 127.0.0.1 - - [03/May/2025 15:40:48] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:40:50,495 - INFO - Filter options retrieved successfully
+2025-05-03 15:40:50,497 - INFO - 127.0.0.1 - - [03/May/2025 15:40:50] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:41:11,550 - INFO - 127.0.0.1 - - [03/May/2025 15:41:11] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:41:11,805 - INFO - Price range selected: premium
+2025-05-03 15:41:11,805 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': 'Deep/Dark', 'event': None, 'season': None, 'product_type': 'Complete Outfit'}
+2025-05-03 15:41:11,805 - INFO - Applying filters: price_range=premium, skin_tone=Deep/Dark, occasion=None, product_type=Complete Outfit
+2025-05-03 15:41:11,889 - INFO - Found 1 products after applying filters
+2025-05-03 15:41:11,890 - INFO - Created query string: Skin Tone Category: Deep/Dark, Product Type: Complete Outfit
+2025-05-03 15:41:15,236 - INFO - Recommendations generated in 3.43 seconds
+2025-05-03 15:41:15,236 - INFO - Returning 1 recommendations
+2025-05-03 15:41:15,236 - INFO - 127.0.0.1 - - [03/May/2025 15:41:15] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:41:44,456 - INFO - 127.0.0.1 - - [03/May/2025 15:41:44] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:41:44,764 - INFO - Price range selected: premium
+2025-05-03 15:41:44,764 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': 'Complete Outfit'}
+2025-05-03 15:41:44,764 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=Complete Outfit
+2025-05-03 15:41:44,766 - INFO - Found 1 products after applying filters
+2025-05-03 15:41:44,767 - INFO - Created query string: Product Type: Complete Outfit
+2025-05-03 15:41:47,374 - INFO - Recommendations generated in 2.61 seconds
+2025-05-03 15:41:47,374 - INFO - Returning 1 recommendations
+2025-05-03 15:41:47,374 - INFO - 127.0.0.1 - - [03/May/2025 15:41:47] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:44:36,815 - INFO - Filter options retrieved successfully
+2025-05-03 15:44:36,815 - INFO - 127.0.0.1 - - [03/May/2025 15:44:36] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:44:46,782 - INFO - 127.0.0.1 - - [03/May/2025 15:44:46] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:44:47,045 - INFO - Price range selected: premium
+2025-05-03 15:44:47,045 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': 'Other'}
+2025-05-03 15:44:47,045 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=Other
+2025-05-03 15:44:47,046 - INFO - Found 0 products after applying filters
+2025-05-03 15:44:47,046 - WARNING - No products found with the selected filters
+2025-05-03 15:44:47,046 - WARNING - No recommendations found
+2025-05-03 15:44:47,047 - INFO - 127.0.0.1 - - [03/May/2025 15:44:47] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:49:57,446 - INFO - Filter options retrieved successfully
+2025-05-03 15:49:57,448 - INFO - 127.0.0.1 - - [03/May/2025 15:49:57] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:49:59,458 - INFO - Filter options retrieved successfully
+2025-05-03 15:49:59,460 - INFO - 127.0.0.1 - - [03/May/2025 15:49:59] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:50:12,211 - INFO - 127.0.0.1 - - [03/May/2025 15:50:12] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:50:12,474 - INFO - Price range selected: premium
+2025-05-03 15:50:12,474 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 15:50:12,474 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 15:50:12,476 - INFO - Found 18 products after applying filters
+2025-05-03 15:50:12,477 - INFO - Created query string: clothing product
+2025-05-03 15:50:20,426 - INFO - Recommendations generated in 7.95 seconds
+2025-05-03 15:50:20,428 - INFO - Returning 3 recommendations
+2025-05-03 15:50:20,429 - INFO - 127.0.0.1 - - [03/May/2025 15:50:20] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:55:03,332 - INFO - 127.0.0.1 - - [03/May/2025 15:55:03] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:55:03,597 - INFO - Price range selected: premium
+2025-05-03 15:55:03,598 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 15:55:03,598 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 15:55:03,599 - INFO - Found 18 products after applying filters
+2025-05-03 15:55:03,600 - INFO - Created query string: clothing product
+2025-05-03 15:55:10,721 - INFO - Recommendations generated in 7.12 seconds
+2025-05-03 15:55:10,722 - INFO - Returning 3 recommendations
+2025-05-03 15:55:10,723 - INFO - 127.0.0.1 - - [03/May/2025 15:55:10] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:55:32,432 - INFO - Filter options retrieved successfully
+2025-05-03 15:55:32,447 - INFO - 127.0.0.1 - - [03/May/2025 15:55:32] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 15:55:44,824 - INFO - 127.0.0.1 - - [03/May/2025 15:55:44] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:55:45,089 - INFO - Price range selected: premium
+2025-05-03 15:55:45,089 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 15:55:45,089 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 15:55:45,093 - INFO - Found 18 products after applying filters
+2025-05-03 15:55:45,093 - INFO - Created query string: clothing product
+2025-05-03 15:55:52,607 - INFO - Recommendations generated in 7.52 seconds
+2025-05-03 15:55:52,607 - INFO - Returning 3 recommendations
+2025-05-03 15:55:52,607 - INFO - 127.0.0.1 - - [03/May/2025 15:55:52] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 15:56:02,250 - INFO - 127.0.0.1 - - [03/May/2025 15:56:02] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 15:56:02,563 - INFO - Price range selected: premium
+2025-05-03 15:56:02,563 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 15:56:02,563 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 15:56:02,563 - INFO - Found 18 products after applying filters
+2025-05-03 15:56:02,563 - INFO - Created query string: clothing product
+2025-05-03 15:56:09,578 - INFO - Recommendations generated in 7.02 seconds
+2025-05-03 15:56:09,578 - INFO - Returning 3 recommendations
+2025-05-03 15:56:09,578 - INFO - 127.0.0.1 - - [03/May/2025 15:56:09] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:03:24,756 - INFO - Filter options retrieved successfully
+2025-05-03 16:03:24,757 - INFO - 127.0.0.1 - - [03/May/2025 16:03:24] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 16:03:37,620 - INFO - 127.0.0.1 - - [03/May/2025 16:03:37] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:03:37,927 - INFO - Price range selected: premium
+2025-05-03 16:03:37,928 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 16:03:37,928 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 16:03:37,929 - INFO - Found 18 products after applying filters
+2025-05-03 16:03:37,929 - INFO - Created query string: clothing product
+2025-05-03 16:03:44,264 - INFO - Recommendations generated in 6.34 seconds
+2025-05-03 16:03:44,264 - INFO - Returning 3 recommendations
+2025-05-03 16:03:44,264 - INFO - 127.0.0.1 - - [03/May/2025 16:03:44] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:03:48,943 - INFO - 127.0.0.1 - - [03/May/2025 16:03:48] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:03:49,270 - INFO - Price range selected: premium
+2025-05-03 16:03:49,270 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 16:03:49,270 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 16:03:49,270 - INFO - Found 18 products after applying filters
+2025-05-03 16:03:49,270 - INFO - Created query string: clothing product
+2025-05-03 16:03:56,309 - INFO - Recommendations generated in 7.04 seconds
+2025-05-03 16:03:56,309 - INFO - Returning 3 recommendations
+2025-05-03 16:03:56,390 - INFO - 127.0.0.1 - - [03/May/2025 16:03:56] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:11:37,491 - INFO - Filter options retrieved successfully
+2025-05-03 16:11:37,491 - INFO - 127.0.0.1 - - [03/May/2025 16:11:37] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 16:11:40,748 - INFO - Filter options retrieved successfully
+2025-05-03 16:11:40,749 - INFO - 127.0.0.1 - - [03/May/2025 16:11:40] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 16:11:50,784 - INFO - 127.0.0.1 - - [03/May/2025 16:11:50] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:11:51,039 - INFO - Price range selected: premium
+2025-05-03 16:11:51,039 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 16:11:51,039 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 16:11:51,040 - INFO - Found 18 products after applying filters
+2025-05-03 16:11:51,040 - INFO - Created query string: clothing product
+2025-05-03 16:11:58,027 - INFO - Recommendations generated in 6.99 seconds
+2025-05-03 16:11:58,028 - INFO - Returning 3 recommendations
+2025-05-03 16:11:58,030 - INFO - 127.0.0.1 - - [03/May/2025 16:11:58] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:12:02,211 - INFO - 127.0.0.1 - - [03/May/2025 16:12:02] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:12:02,531 - INFO - Price range selected: premium
+2025-05-03 16:12:02,532 - INFO - Getting recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 16:12:02,533 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 16:12:02,536 - INFO - Found 18 products after applying filters
+2025-05-03 16:12:02,536 - INFO - Created query string: clothing product
+2025-05-03 16:12:09,003 - INFO - Recommendations generated in 6.47 seconds
+2025-05-03 16:12:09,003 - INFO - Returning 3 recommendations
+2025-05-03 16:12:09,003 - INFO - 127.0.0.1 - - [03/May/2025 16:12:09] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:15:47,961 - INFO -  * Detected change in 'E:\\fyp\\Recomend\\recommendation_api.py', reloading
+2025-05-03 16:15:48,069 - INFO -  * Detected change in 'E:\\fyp\\Recomend\\recommendation_api.py', reloading
+2025-05-03 16:15:50,234 - INFO -  * Restarting with stat
+2025-05-03 16:16:03,555 - INFO - Loading faiss with AVX2 support.
+2025-05-03 16:16:03,555 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-03 16:16:03,556 - INFO - Loading faiss.
+2025-05-03 16:16:03,571 - INFO - Loading faiss with AVX2 support.
+2025-05-03 16:16:03,572 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-03 16:16:03,572 - INFO - Loading faiss.
+2025-05-03 16:16:03,610 - INFO - Successfully loaded faiss.
+2025-05-03 16:16:03,628 - INFO - Successfully loaded faiss.
+2025-05-03 16:16:03,770 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 16:16:03,783 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-03 16:16:05,253 - INFO - Use pytorch device: cpu
+2025-05-03 16:16:05,254 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 16:16:05,255 - INFO - Use pytorch device: cpu
+2025-05-03 16:16:05,256 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-03 16:16:05,338 - INFO - Embeddings and index loaded successfully
+2025-05-03 16:16:05,338 - INFO - Embeddings and index loaded successfully
+2025-05-03 16:16:05,345 - INFO - Extracting filter options from the dataset
+2025-05-03 16:16:05,346 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-03 16:16:05,350 - INFO - Starting Clothing Recommendation API Server
+2025-05-03 16:16:05,350 - INFO - Starting Clothing Recommendation API Server
+2025-05-03 16:16:05,372 - WARNING -  * Debugger is active!
+2025-05-03 16:16:05,437 - INFO -  * Debugger PIN: 470-075-102
+2025-05-03 16:16:05,444 - INFO -  * Debugger PIN: 470-075-102
+2025-05-03 16:16:06,314 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 16:16:06,339 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-03 16:17:51,756 - INFO - Filter options retrieved successfully
+2025-05-03 16:17:51,757 - INFO - 127.0.0.1 - - [03/May/2025 16:17:51] "GET /filter_options HTTP/1.1" 200 -
+2025-05-03 16:17:59,825 - INFO - 127.0.0.1 - - [03/May/2025 16:17:59] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:18:00,134 - INFO - Price range selected: premium
+2025-05-03 16:18:00,134 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-03 16:18:00,134 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-03 16:18:00,145 - INFO - Found 18 products after applying filters
+2025-05-03 16:18:00,147 - INFO - Created query string: clothing product
+2025-05-03 16:18:21,728 - INFO - Recommendations generated in 21.59 seconds
+2025-05-03 16:18:21,728 - INFO - Returning 9 recommendations
+2025-05-03 16:18:21,728 - INFO - 127.0.0.1 - - [03/May/2025 16:18:21] "POST /recommend HTTP/1.1" 200 -
+2025-05-03 16:20:50,562 - INFO - 127.0.0.1 - - [03/May/2025 16:20:50] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-03 16:20:50,821 - INFO - Price range selected: mid_range
+2025-05-03 16:20:50,821 - INFO - Getting 9 recommendations with preferences: {'budget': 'mid_range', 'skin_tone': 'Medium', 'event': 'Casual', 'season': 'Winter', 'product_type': None}
+2025-05-03 16:20:50,821 - INFO - Applying filters: price_range=mid_range, skin_tone=Medium, occasion=Casual, product_type=None
+2025-05-03 16:20:50,826 - INFO - Found 0 products after applying filters
+2025-05-03 16:20:50,826 - WARNING - No products found with the selected filters
+2025-05-03 16:20:50,827 - WARNING - No recommendations found
+2025-05-03 16:20:50,827 - INFO - 127.0.0.1 - - [03/May/2025 16:20:50] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 16:59:43,522 - INFO - Loading faiss with AVX2 support.
+2025-05-04 16:59:43,522 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-04 16:59:43,522 - INFO - Loading faiss.
+2025-05-04 16:59:43,647 - INFO - Successfully loaded faiss.
+2025-05-04 16:59:43,776 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-04 16:59:45,358 - INFO - Use pytorch device: cpu
+2025-05-04 16:59:45,358 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-04 16:59:45,486 - INFO - Embeddings and index loaded successfully
+2025-05-04 16:59:45,504 - INFO - Extracting filter options from the dataset
+2025-05-04 16:59:45,513 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-04 16:59:45,513 - INFO - Starting Clothing Recommendation API Server
+2025-05-04 16:59:45,566 - INFO -  * Restarting with stat
+2025-05-04 16:59:55,837 - INFO - Loading faiss with AVX2 support.
+2025-05-04 16:59:55,837 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-04 16:59:55,837 - INFO - Loading faiss.
+2025-05-04 16:59:55,868 - INFO - Successfully loaded faiss.
+2025-05-04 16:59:55,962 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-04 16:59:56,846 - INFO - Use pytorch device: cpu
+2025-05-04 16:59:56,846 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-04 16:59:56,846 - INFO - Embeddings and index loaded successfully
+2025-05-04 16:59:56,866 - INFO - Extracting filter options from the dataset
+2025-05-04 16:59:56,868 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-04 16:59:56,868 - INFO - Starting Clothing Recommendation API Server
+2025-05-04 16:59:56,902 - WARNING -  * Debugger is active!
+2025-05-04 16:59:56,931 - INFO -  * Debugger PIN: 470-075-102
+2025-05-04 16:59:58,480 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 16:59:58,686 - INFO - Filter options retrieved successfully
+2025-05-04 16:59:58,686 - INFO - 127.0.0.1 - - [04/May/2025 16:59:58] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 17:00:13,892 - INFO - 127.0.0.1 - - [04/May/2025 17:00:13] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 17:00:14,142 - INFO - Price range selected: premium
+2025-05-04 17:00:14,142 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 17:00:14,142 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 17:00:14,142 - INFO - Found 18 products after applying filters
+2025-05-04 17:00:14,158 - INFO - Created query string: clothing product
+2025-05-04 17:00:38,920 - INFO - Recommendations generated in 24.78 seconds
+2025-05-04 17:00:38,920 - INFO - Returning 9 recommendations
+2025-05-04 17:00:38,920 - INFO - 127.0.0.1 - - [04/May/2025 17:00:38] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 17:05:06,812 - INFO - 127.0.0.1 - - [04/May/2025 17:05:06] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 17:05:07,078 - INFO - Price range selected: premium
+2025-05-04 17:05:07,078 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 17:05:07,078 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 17:05:07,078 - INFO - Found 18 products after applying filters
+2025-05-04 17:05:07,078 - INFO - Created query string: clothing product
+2025-05-04 17:05:32,419 - INFO - Recommendations generated in 25.34 seconds
+2025-05-04 17:05:32,435 - INFO - Returning 9 recommendations
+2025-05-04 17:05:32,435 - INFO - 127.0.0.1 - - [04/May/2025 17:05:32] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 17:14:39,014 - INFO - Filter options retrieved successfully
+2025-05-04 17:14:39,014 - INFO - 127.0.0.1 - - [04/May/2025 17:14:39] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 17:14:57,484 - INFO - 127.0.0.1 - - [04/May/2025 17:14:57] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 17:14:57,734 - INFO - Price range selected: premium
+2025-05-04 17:14:57,734 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 17:14:57,734 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 17:14:57,734 - INFO - Found 18 products after applying filters
+2025-05-04 17:14:57,734 - INFO - Created query string: clothing product
+2025-05-04 17:15:20,981 - INFO - Recommendations generated in 23.25 seconds
+2025-05-04 17:15:20,981 - INFO - Returning 9 recommendations
+2025-05-04 17:15:20,981 - INFO - 127.0.0.1 - - [04/May/2025 17:15:20] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 17:18:41,078 - INFO - Filter options retrieved successfully
+2025-05-04 17:18:41,078 - INFO - 127.0.0.1 - - [04/May/2025 17:18:41] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 17:18:51,938 - INFO - 127.0.0.1 - - [04/May/2025 17:18:51] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 17:18:52,259 - INFO - Price range selected: premium
+2025-05-04 17:18:52,259 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 17:18:52,259 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 17:18:52,259 - INFO - Found 18 products after applying filters
+2025-05-04 17:18:52,259 - INFO - Created query string: clothing product
+2025-05-04 17:19:13,948 - INFO - Recommendations generated in 21.69 seconds
+2025-05-04 17:19:13,948 - INFO - Returning 9 recommendations
+2025-05-04 17:19:13,948 - INFO - 127.0.0.1 - - [04/May/2025 17:19:13] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 19:15:09,806 - INFO - Loading faiss with AVX2 support.
+2025-05-04 19:15:09,834 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-04 19:15:09,834 - INFO - Loading faiss.
+2025-05-04 19:15:09,945 - INFO - Successfully loaded faiss.
+2025-05-04 19:15:10,062 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-04 19:15:11,336 - INFO - Use pytorch device: cpu
+2025-05-04 19:15:11,337 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-04 19:15:11,391 - INFO - Embeddings and index loaded successfully
+2025-05-04 19:15:11,411 - INFO - Extracting filter options from the dataset
+2025-05-04 19:15:11,426 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-04 19:15:11,432 - INFO - Starting Clothing Recommendation API Server
+2025-05-04 19:15:11,469 - INFO -  * Restarting with stat
+2025-05-04 19:15:18,976 - INFO - Loading faiss with AVX2 support.
+2025-05-04 19:15:18,977 - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2025-05-04 19:15:18,977 - INFO - Loading faiss.
+2025-05-04 19:15:19,003 - INFO - Successfully loaded faiss.
+2025-05-04 19:15:19,088 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-04 19:15:19,902 - INFO - Use pytorch device: cpu
+2025-05-04 19:15:19,903 - INFO - Loading pre-computed embeddings and FAISS index...
+2025-05-04 19:15:19,941 - INFO - Embeddings and index loaded successfully
+2025-05-04 19:15:19,952 - INFO - Extracting filter options from the dataset
+2025-05-04 19:15:19,953 - INFO - Available options extracted: {'price_range': ['budget', 'mid_range', 'premium'], 'skin_tone': ['Deep/Dark', 'Light/Fair', 'Medium/Olive'], 'occasion': ['Casual', 'Formal', 'Wedding'], 'product_type': ['2 Piece Outfit', 'Accessory', 'Bottom', 'Complete Outfit', 'Other', 'Top']}
+2025-05-04 19:15:19,963 - INFO - Starting Clothing Recommendation API Server
+2025-05-04 19:15:19,985 - WARNING -  * Debugger is active!
+2025-05-04 19:15:20,012 - INFO -  * Debugger PIN: 470-075-102
+2025-05-04 19:15:20,817 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 19:15:47,756 - INFO - Filter options retrieved successfully
+2025-05-04 19:15:47,759 - INFO - 127.0.0.1 - - [04/May/2025 19:15:47] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:15:56,699 - INFO - 127.0.0.1 - - [04/May/2025 19:15:56] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 19:15:56,957 - INFO - Price range selected: premium
+2025-05-04 19:15:56,957 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 19:15:56,958 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 19:15:56,974 - INFO - Found 18 products after applying filters
+2025-05-04 19:15:56,977 - INFO - Created query string: clothing product
+2025-05-04 19:16:24,447 - INFO - Recommendations generated in 27.49 seconds
+2025-05-04 19:16:24,448 - INFO - Returning 9 recommendations
+2025-05-04 19:16:24,449 - INFO - 127.0.0.1 - - [04/May/2025 19:16:24] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 19:17:59,392 - INFO - Filter options retrieved successfully
+2025-05-04 19:17:59,393 - INFO - 127.0.0.1 - - [04/May/2025 19:17:59] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:18:09,771 - INFO - 127.0.0.1 - - [04/May/2025 19:18:09] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 19:18:10,040 - INFO - Price range selected: premium
+2025-05-04 19:18:10,040 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 19:18:10,040 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 19:18:10,041 - INFO - Found 18 products after applying filters
+2025-05-04 19:18:10,042 - INFO - Created query string: clothing product
+2025-05-04 19:18:32,014 - INFO - Recommendations generated in 21.97 seconds
+2025-05-04 19:18:32,014 - INFO - Returning 9 recommendations
+2025-05-04 19:18:32,016 - INFO - 127.0.0.1 - - [04/May/2025 19:18:32] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 19:25:39,819 - INFO - Filter options retrieved successfully
+2025-05-04 19:25:39,819 - INFO - 127.0.0.1 - - [04/May/2025 19:25:39] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:25:59,456 - INFO - 127.0.0.1 - - [04/May/2025 19:25:59] "OPTIONS /recommend HTTP/1.1" 200 -
+2025-05-04 19:25:59,770 - INFO - Price range selected: premium
+2025-05-04 19:25:59,770 - INFO - Getting 9 recommendations with preferences: {'budget': 'premium', 'skin_tone': None, 'event': None, 'season': None, 'product_type': None}
+2025-05-04 19:25:59,771 - INFO - Applying filters: price_range=premium, skin_tone=None, occasion=None, product_type=None
+2025-05-04 19:25:59,773 - INFO - Found 18 products after applying filters
+2025-05-04 19:25:59,774 - INFO - Created query string: clothing product
+2025-05-04 19:26:20,285 - INFO - Recommendations generated in 20.51 seconds
+2025-05-04 19:26:20,286 - INFO - Returning 9 recommendations
+2025-05-04 19:26:20,287 - INFO - 127.0.0.1 - - [04/May/2025 19:26:20] "POST /recommend HTTP/1.1" 200 -
+2025-05-04 19:39:11,671 - INFO - Filter options retrieved successfully
+2025-05-04 19:39:11,673 - INFO - 127.0.0.1 - - [04/May/2025 19:39:11] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:55:17,362 - INFO - Filter options retrieved successfully
+2025-05-04 19:55:17,362 - INFO - 127.0.0.1 - - [04/May/2025 19:55:17] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:55:42,839 - INFO - Filter options retrieved successfully
+2025-05-04 19:55:42,839 - INFO - 127.0.0.1 - - [04/May/2025 19:55:42] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 19:57:53,380 - INFO - Filter options retrieved successfully
+2025-05-04 19:57:53,382 - INFO - 127.0.0.1 - - [04/May/2025 19:57:53] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:34:28,949 - INFO - Filter options retrieved successfully
+2025-05-04 20:34:28,972 - INFO - 127.0.0.1 - - [04/May/2025 20:34:28] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:37:15,316 - INFO - Filter options retrieved successfully
+2025-05-04 20:37:15,318 - INFO - 127.0.0.1 - - [04/May/2025 20:37:15] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:37:37,421 - INFO - Filter options retrieved successfully
+2025-05-04 20:37:37,428 - INFO - 127.0.0.1 - - [04/May/2025 20:37:37] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:37:57,845 - INFO - Filter options retrieved successfully
+2025-05-04 20:37:57,847 - INFO - 127.0.0.1 - - [04/May/2025 20:37:57] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:38:16,364 - INFO - Filter options retrieved successfully
+2025-05-04 20:38:16,364 - INFO - 127.0.0.1 - - [04/May/2025 20:38:16] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:38:42,910 - INFO - Filter options retrieved successfully
+2025-05-04 20:38:42,912 - INFO - 127.0.0.1 - - [04/May/2025 20:38:42] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:40:01,888 - INFO - Filter options retrieved successfully
+2025-05-04 20:40:01,889 - INFO - 127.0.0.1 - - [04/May/2025 20:40:01] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:41:01,751 - INFO - Filter options retrieved successfully
+2025-05-04 20:41:01,754 - INFO - 127.0.0.1 - - [04/May/2025 20:41:01] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:43:31,965 - INFO - Filter options retrieved successfully
+2025-05-04 20:43:31,972 - INFO - 127.0.0.1 - - [04/May/2025 20:43:31] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:46:09,312 - INFO - Filter options retrieved successfully
+2025-05-04 20:46:09,313 - INFO - 127.0.0.1 - - [04/May/2025 20:46:09] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:46:49,937 - INFO - Filter options retrieved successfully
+2025-05-04 20:46:49,938 - INFO - 127.0.0.1 - - [04/May/2025 20:46:49] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:48:46,614 - INFO - Filter options retrieved successfully
+2025-05-04 20:48:46,615 - INFO - 127.0.0.1 - - [04/May/2025 20:48:46] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:48:47,787 - INFO - Filter options retrieved successfully
+2025-05-04 20:48:47,787 - INFO - 127.0.0.1 - - [04/May/2025 20:48:47] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:49:01,210 - INFO - Filter options retrieved successfully
+2025-05-04 20:49:01,211 - INFO - 127.0.0.1 - - [04/May/2025 20:49:01] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:49:17,048 - INFO - Filter options retrieved successfully
+2025-05-04 20:49:17,048 - INFO - 127.0.0.1 - - [04/May/2025 20:49:17] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:49:39,655 - INFO - Filter options retrieved successfully
+2025-05-04 20:49:39,658 - INFO - 127.0.0.1 - - [04/May/2025 20:49:39] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:50:00,516 - INFO - Filter options retrieved successfully
+2025-05-04 20:50:00,520 - INFO - 127.0.0.1 - - [04/May/2025 20:50:00] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:50:31,326 - INFO - Filter options retrieved successfully
+2025-05-04 20:50:31,327 - INFO - 127.0.0.1 - - [04/May/2025 20:50:31] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:50:54,717 - INFO - Filter options retrieved successfully
+2025-05-04 20:50:54,717 - INFO - 127.0.0.1 - - [04/May/2025 20:50:54] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:51:15,546 - INFO - Filter options retrieved successfully
+2025-05-04 20:51:15,547 - INFO - 127.0.0.1 - - [04/May/2025 20:51:15] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:51:37,122 - INFO - Filter options retrieved successfully
+2025-05-04 20:51:37,123 - INFO - 127.0.0.1 - - [04/May/2025 20:51:37] "GET /filter_options HTTP/1.1" 200 -
+2025-05-04 20:51:52,434 - INFO - Filter options retrieved successfully
+2025-05-04 20:51:52,436 - INFO - 127.0.0.1 - - [04/May/2025 20:51:52] "GET /filter_options HTTP/1.1" 200 -
